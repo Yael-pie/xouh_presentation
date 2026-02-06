@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 *, ::before, ::after {
     padding: 0;
@@ -68,10 +71,24 @@ body {
 }
 
 .parts_titles {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Great Vibes", cursive;
     font-size: 3vw;
     color: var(--v5);
     text-align: left;
-    margin-top: 20vh;
+    margin-top: 13vh;
     margin-left: 5vw;
+}
+
+#section_what_is_xouh {
+    margin-top: 20vh;
+}
+
+.presentation_paragraphs {
+    font-family: "Archivo Black", cursive;
+    font-size: 1vw;
+    color: var(--v6);
+    text-align: left;
+    margin-top: 2vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
