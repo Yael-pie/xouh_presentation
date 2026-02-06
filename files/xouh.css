@@ -1,0 +1,23 @@
+*, ::before, ::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    --p1: #e6f2ff;
+    --p2: #b3d9ff;
+    --p3: #80bfff;
+    --p4: #4d94ff;
+    --p5: #1a5fa0;
+
+    --v1: #00d4ff;
+    --v2: #00c5ff;
+    --v3: #0099ff;
+    --v4: #0073cc;
+    --v5: #004d99;
+    --v6: #003366;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
