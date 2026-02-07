@@ -134,13 +134,3 @@ body {
 #section_what_is_xouh {
     margin-top: 15vh;
 }
-
-.presentation_paragraphs {
-    font-family: "Archivo Black", cursive;
-    font-size: 30px;
-    color: var(--v6);
-    text-align: left;
-    margin-top: 2vh;
-    margin-left: 5vw;
-    margin-right: 5vw;
-}
