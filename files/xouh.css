@@ -284,6 +284,21 @@ body {
     color: #333;
 }
 
+a .horizontal_card {
+    text-decoration: none;
+    color: inherit;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+#go_card:hover {
+    background: rgba(142, 189, 233, 0.95);
+}
+
 #page_footer {
     margin: 0;
     padding: 0;
