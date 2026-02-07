@@ -32,6 +32,7 @@ html {
 body {
     background: linear-gradient(180deg, var(--p2) 33%, var(--p3) 66%, var(--p4) 100%);
     min-height: 100vh;
+    height: 100%;
 }
 
 #main_title {
@@ -281,4 +282,18 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 1rem;
     color: #333;
+}
+
+#page_footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#page_footer img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
 }
