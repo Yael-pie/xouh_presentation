@@ -180,3 +180,54 @@ body {
     color: var(--v4);
     text-align: center;
 }
+
+.values_nine_cards_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 3rem 5vw;
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.little_card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    padding: 2rem 1.5rem;
+    box-shadow: 0 8px 32px rgba(0, 115, 204, 0.15);
+    transition: all 0.3s ease;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.little_card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 50px rgba(0, 115, 204, 0.25);
+    cursor: pointer;
+}
+
+.little_card_icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.little_card_text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 1vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.back_text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 1vh;
+}
