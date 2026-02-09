@@ -403,6 +403,7 @@ a {
 
 @media (max-width: 402px) {
     #button_blog {
-        display: none;
+        bottom: 10px;
+        top: auto;
     }
 }
